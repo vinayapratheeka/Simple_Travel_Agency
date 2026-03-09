@@ -13,7 +13,7 @@ public class FlightsPage {
     }
     By chooseFlight = By.xpath("(//input[@value='Choose This Flight'])[1]");
     public void verifyFlightsPage() {
-        Assert.assertTrue(driver.getPageSource().contains("Flights"));
+        Assert.assertTrue(driver.getPageSource().contains("Flights"),"Flights Page not displayed");
     }
     public void selectFlight() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

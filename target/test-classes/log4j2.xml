@@ -5,15 +5,30 @@
 <Appenders>
 
 <Console name="Console" target="SYSTEM_OUT">
-<PatternLayout pattern="%d [%t] %-5level: %msg%n"/>
+
+<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+
 </Console>
+
+<File name="FileLogger" fileName="Logs/application.log">
+
+<PatternLayout>
+
+<pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</pattern>
+
+</PatternLayout>
+
+</File>
 
 </Appenders>
 
 <Loggers>
 
 <Root level="info">
+
 <AppenderRef ref="Console"/>
+<AppenderRef ref="FileLogger"/>
+
 </Root>
 
 </Loggers>

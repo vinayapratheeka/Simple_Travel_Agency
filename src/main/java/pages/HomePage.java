@@ -16,7 +16,7 @@ public class HomePage {
     By destination = By.name("toPort");
     By findFlights = By.xpath("//input[@value='Find Flights']");
     public void verifyHomePage() {
-        Assert.assertTrue(driver.getTitle().contains("BlazeDemo"));
+        Assert.assertTrue(driver.getTitle().contains("BlazeDemo"), "Home Page not loaded");
     }
     public void searchFlights() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -27,6 +27,7 @@ public class HomePage {
         wait.until(ExpectedConditions.elementToBeClickable(findFlights)).click();
     }
 }
+
 
 
     

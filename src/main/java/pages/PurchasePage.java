@@ -21,7 +21,7 @@ public class PurchasePage {
     By name_on_card = By.id("nameOnCard");
     By purchase = By.xpath("//input[@value='Purchase Flight']");
     public void verifyPurchasePage() {
-        Assert.assertTrue(driver.getPageSource().contains("Your flight"));
+        Assert.assertTrue(driver.getPageSource().contains("Your flight"),"Purchase Page not loaded");
     }
     public void enterDetails(String nameValue, String addressValue, String cityValue,
             String stateValue, String zipValue, String cardValue, String nameoncardValue) {
