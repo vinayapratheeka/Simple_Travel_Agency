@@ -28,11 +28,11 @@ public class BaseClass {
 			//driver = new EdgeDriver();
 			EdgeOptions options = new EdgeOptions();
 			
-			options.addArguments("--remote-allow-origins=*");
+			options.addArguments("--headless");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--window-size=1920,1080");
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--no-sandbox");
-			options.addArguments("--disable-gpu");
-			options.addArguments("--headless=new");
 			driver = new EdgeDriver(options);
 
 		}
