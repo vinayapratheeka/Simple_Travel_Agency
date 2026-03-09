@@ -17,7 +17,7 @@ public class BaseClass {
 	public static Logger log = LogManager.getLogger(BaseClass.class);
 	@BeforeMethod
 	@Parameters("browser")
-	public void setup(@Optional("chrome")String browser){
+	public void setup(@Optional("firefox")String browser){
 		log.info("Launching browser");
 		if(browser.equalsIgnoreCase("chrome")){
 			WebDriverManager.chromedriver().setup();
