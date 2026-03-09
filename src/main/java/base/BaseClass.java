@@ -3,6 +3,7 @@ package base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -24,7 +25,16 @@ public class BaseClass {
 			//WebDriverManager.edgedriver().clearDriverCache().setup();
 			System.setProperty("webdriver.edge.driver",
 					"C:\\Users\\HP\\OneDrive\\Desktop\\Selenium Integration\\edgedriver_win64\\msedgedriver.exe");
-			driver = new EdgeDriver();
+			//driver = new EdgeDriver();
+			EdgeOptions options = new EdgeOptions();
+			
+			options.addArguments("--remote-allow-origins=*");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--headless=new");
+			driver = new EdgeDriver(options);
+
 		}
 		else if(browser.equalsIgnoreCase("firefox")){
 			WebDriverManager.firefoxdriver().setup();
