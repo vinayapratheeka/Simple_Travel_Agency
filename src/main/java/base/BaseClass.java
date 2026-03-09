@@ -19,16 +19,18 @@ public class BaseClass {
 	@Parameters("browser")
 	public void setup(@Optional("firefox")String browser){
 		log.info("Launching browser");
+		boolean isJenkins = System.getenv("JENKINS_HOME") != null;
 		if(browser.equalsIgnoreCase("chrome")){
 			WebDriverManager.chromedriver().setup();
 			//driver = new ChromeDriver();
 			ChromeOptions options = new ChromeOptions();
-
-			options.addArguments("--headless");
-			options.addArguments("--disable-gpu");
-			options.addArguments("--window-size=1920,1080");
-			options.addArguments("--disable-dev-shm-usage");
-			options.addArguments("--no-sandbox");
+			if(isJenkins) {
+				options.addArguments("--headless");
+				options.addArguments("--disable-gpu");
+				options.addArguments("--window-size=1920,1080");
+				options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--no-sandbox");
+			}
 
 			driver = new ChromeDriver(options);
 		}
@@ -38,12 +40,13 @@ public class BaseClass {
 					"C:\\Users\\HP\\OneDrive\\Desktop\\Selenium Integration\\edgedriver_win64\\msedgedriver.exe");
 			//driver = new EdgeDriver();
 			EdgeOptions options = new EdgeOptions();
-			
-			options.addArguments("--headless");
-			options.addArguments("--disable-gpu");
-			options.addArguments("--window-size=1920,1080");
-			options.addArguments("--disable-dev-shm-usage");
-			options.addArguments("--no-sandbox");
+			if(isJenkins) {
+				options.addArguments("--headless");
+				options.addArguments("--disable-gpu");
+				options.addArguments("--window-size=1920,1080");
+				options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--no-sandbox");
+			}
 			driver = new EdgeDriver(options);
 
 		}
@@ -51,8 +54,9 @@ public class BaseClass {
 			WebDriverManager.firefoxdriver().setup();
 			//driver = new FirefoxDriver();
 			FirefoxOptions options = new FirefoxOptions();
-
-			options.addArguments("--headless");
+			if(isJenkins) {
+				options.addArguments("--headless");
+			}
 			driver = new FirefoxDriver(options);
 		}
 		driver.manage().window().maximize();
@@ -65,7 +69,6 @@ public class BaseClass {
 		log.info("Closing browser");
 		if(driver != null){
 			driver.quit();
-			driver = null;
 		}
 	}
 }
