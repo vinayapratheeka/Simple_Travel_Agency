@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
@@ -48,7 +49,11 @@ public class BaseClass {
 		}
 		else if(browser.equalsIgnoreCase("firefox")){
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			//driver = new FirefoxDriver();
+			FirefoxOptions options = new FirefoxOptions();
+
+			options.addArguments("--headless");
+			driver = new FirefoxDriver(options);
 		}
 		driver.manage().window().maximize();
 		log.info("Browser launched successfully: " + browser);
