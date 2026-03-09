@@ -2,6 +2,7 @@ package base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,11 +16,20 @@ public class BaseClass {
 	public static Logger log = LogManager.getLogger(BaseClass.class);
 	@BeforeMethod
 	@Parameters("browser")
-	public void setup(@Optional("edge")String browser){
+	public void setup(@Optional("chrome")String browser){
 		log.info("Launching browser");
 		if(browser.equalsIgnoreCase("chrome")){
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			//driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+
+			options.addArguments("--headless");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--window-size=1920,1080");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--no-sandbox");
+
+			driver = new ChromeDriver(options);
 		}
 		else if(browser.equalsIgnoreCase("edge")){
 			//WebDriverManager.edgedriver().clearDriverCache().setup();
