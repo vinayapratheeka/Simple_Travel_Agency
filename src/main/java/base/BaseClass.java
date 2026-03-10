@@ -17,7 +17,7 @@ public class BaseClass {
 	public static Logger log = LogManager.getLogger(BaseClass.class);
 	@BeforeMethod
 	@Parameters("browser")
-	public void setup(@Optional("firefox")String browser){
+	/*public void setup(@Optional("firefox")String browser){
 		log.info("Launching browser");
 		boolean isJenkins = System.getenv("JENKINS_HOME") != null;
 		if(browser.equalsIgnoreCase("chrome")){
@@ -63,7 +63,24 @@ public class BaseClass {
 		log.info("Browser launched successfully: " + browser);
 		driver.get("https://blazedemo.com");
 		log.info("Application launched");
+		}*/
+	public void setup(String browser){
+		log.info("Launching browser");
+		if(browser.equalsIgnoreCase("chrome")){
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			}
+		else if(browser.equalsIgnoreCase("edge")) {
+			System.setProperty("webdriver.edge.driver",
+					"C:\\Users\\HP\\OneDrive\\Desktop\\Selenium Integration\\edgedriver_win64\\msedgedriver.exe");
+			driver = new EdgeDriver();
+			}
+		else if(browser.equalsIgnoreCase("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+			}
 		}
+
 	@AfterMethod
 	public void tearDown(){
 		log.info("Closing browser");
