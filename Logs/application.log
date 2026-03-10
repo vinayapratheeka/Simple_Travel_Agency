@@ -961,3 +961,12 @@
 2026-03-10 11:53:54 INFO  FlightBookingTest:47 - Passenger details entered
 2026-03-10 11:53:56 INFO  FlightBookingTest:55 - Flight booking successful
 2026-03-10 11:53:57 INFO  BaseClass:89 - Closing browser
+2026-03-10 14:02:27 INFO  BaseClass:21 - Launching browser
+2026-03-10 14:02:37 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-10 14:02:39 INFO  BaseClass:65 - Application launched
+2026-03-10 14:02:41 INFO  FlightBookingTest:33 - Flights searched
+2026-03-10 14:02:43 INFO  FlightBookingTest:40 - Flight selected
+2026-03-10 14:02:46 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-10 14:02:47 INFO  FlightBookingTest:55 - Flight booking successful
+2026-03-10 14:02:49 INFO  BaseClass:89 - Closing browser
+2026-03-10 14:02:50 INFO  BaseClass:21 - Launching browser

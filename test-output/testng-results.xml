@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-10T11:51:37 IST" name="CrossBrowserSuite" finished-at="2026-03-10T11:53:59 IST" duration-ms="141822">
+  <suite started-at="2026-03-10T14:02:25 IST" name="Default suite" finished-at="2026-03-10T14:02:59 IST" duration-ms="33225">
     <groups>
     </groups>
-    <test started-at="2026-03-10T11:51:37 IST" name="ChromeTest" finished-at="2026-03-10T11:52:21 IST" duration-ms="43423">
+    <test started-at="2026-03-10T14:02:25 IST" name="Default test" finished-at="2026-03-10T14:02:59 IST" duration-ms="33225">
       <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:51:39 IST" name="setup" finished-at="2026-03-10T11:51:44 IST" duration-ms="4998" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:27 IST" name="setup" finished-at="2026-03-10T14:02:39 IST" duration-ms="12826" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:51:44 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:51:56 IST" duration-ms="12172" status="PASS">
+        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:39 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T14:02:49 IST" duration-ms="9251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,22 +59,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:51:56 IST" name="tearDown" finished-at="2026-03-10T11:51:57 IST" duration-ms="411" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:49 IST" name="tearDown" finished-at="2026-03-10T14:02:50 IST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:51:57 IST" name="setup" finished-at="2026-03-10T11:51:59 IST" duration-ms="2405" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:50 IST" name="setup" finished-at="2026-03-10T14:02:59 IST" duration-ms="8345" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'DESKTOP-7BULRO4', ip: '192.168.1.6'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'DESKTOP-7BULRO4', ip: '192.168.1.6'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:155)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:150)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:133)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:113)
+at base.BaseClass.setup(BaseClass.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:51:59 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:52:08 IST" duration-ms="9153" status="PASS">
+        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:59 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T14:02:59 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -112,25 +178,84 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'DESKTOP-7BULRO4', ip: '192.168.1.6'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'DESKTOP-7BULRO4', ip: '192.168.1.6'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:155)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:150)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:133)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:113)
+at base.BaseClass.setup(BaseClass.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:52:08 IST" name="tearDown" finished-at="2026-03-10T11:52:09 IST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:59 IST" name="tearDown" finished-at="2026-03-10T14:02:59 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:52:09 IST" name="setup" finished-at="2026-03-10T11:52:11 IST" duration-ms="2197" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:59 IST" name="setup" finished-at="2026-03-10T14:02:59 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:52:11 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:52:21 IST" duration-ms="9860" status="PASS">
+        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:59 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T14:02:59 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -168,362 +293,84 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'DESKTOP-7BULRO4', ip: '192.168.1.6'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'DESKTOP-7BULRO4', ip: '192.168.1.6'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:155)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:150)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:133)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:113)
+at base.BaseClass.setup(BaseClass.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-10T11:52:21 IST" name="tearDown" finished-at="2026-03-10T11:52:21 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:59 IST" name="tearDown" finished-at="2026-03-10T14:02:59 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.FlightBookingTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2026-03-10T11:52:21 IST" name="EdgeTest" finished-at="2026-03-10T11:53:02 IST" duration-ms="41129">
-      <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:21 IST" name="setup" finished-at="2026-03-10T11:52:24 IST" duration-ms="2740" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:24 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:52:34 IST" duration-ms="10544" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vinaya ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[45 Green Park Road]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Telangana]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[500081]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4539578763621486]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Vinaya]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:34 IST" name="tearDown" finished-at="2026-03-10T11:52:35 IST" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:35 IST" name="setup" finished-at="2026-03-10T11:52:38 IST" duration-ms="3221" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:38 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:52:48 IST" duration-ms="10238" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ananya Sharma]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[102 Lake View Street]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Karnataka]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[560034]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4716347184862961]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Ananya]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:48 IST" name="tearDown" finished-at="2026-03-10T11:52:48 IST" duration-ms="322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:48 IST" name="setup" finished-at="2026-03-10T11:52:51 IST" duration-ms="3071" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:52:51 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:53:02 IST" duration-ms="10231" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rahul Reddy]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[78 Jubilee Hills Main Road]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Telangana]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[500033]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4485275742308327]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Rahul]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-10T11:53:02 IST" name="tearDown" finished-at="2026-03-10T11:53:02 IST" duration-ms="370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.FlightBookingTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2026-03-10T11:53:02 IST" name="FirefoxTest" finished-at="2026-03-10T11:53:59 IST" duration-ms="57243">
-      <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:02 IST" name="setup" finished-at="2026-03-10T11:53:11 IST" duration-ms="8696" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:11 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:53:21 IST" duration-ms="10484" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vinaya ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[45 Green Park Road]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Telangana]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[500081]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4539578763621486]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Vinaya]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:21 IST" name="tearDown" finished-at="2026-03-10T11:53:22 IST" duration-ms="931" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:22 IST" name="setup" finished-at="2026-03-10T11:53:30 IST" duration-ms="7915" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:30 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:53:39 IST" duration-ms="9151" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ananya Sharma]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[102 Lake View Street]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Karnataka]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[560034]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4716347184862961]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Ananya]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:39 IST" name="tearDown" finished-at="2026-03-10T11:53:40 IST" duration-ms="1096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:40 IST" name="setup" finished-at="2026-03-10T11:53:48 IST" duration-ms="7948" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:48 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-10T11:53:57 IST" duration-ms="9081" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rahul Reddy]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[78 Jubilee Hills Main Road]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Telangana]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[500033]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4485275742308327]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Rahul]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:57 IST" name="tearDown" finished-at="2026-03-10T11:53:59 IST" duration-ms="1902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-10T11:53:59 IST" name="flushReport" finished-at="2026-03-10T11:54:00 IST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.FlightBookingTest@3574e198]" started-at="2026-03-10T14:02:59 IST" name="flushReport" finished-at="2026-03-10T14:02:59 IST" duration-ms="537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- tests.FlightBookingTest -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- CrossBrowserSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
