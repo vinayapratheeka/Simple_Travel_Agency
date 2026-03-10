@@ -79,8 +79,11 @@ public class BaseClass {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			}
-		}
-
+		driver.manage().window().maximize();
+		log.info("Browser launched successfully: " + browser);
+		driver.get("https://blazedemo.com");
+		log.info("Application launched");
+	}
 	@AfterMethod
 	public void tearDown(){
 		log.info("Closing browser");
