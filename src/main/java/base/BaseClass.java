@@ -17,7 +17,7 @@ public class BaseClass {
 	public static Logger log = LogManager.getLogger(BaseClass.class);
 	@BeforeMethod
 	@Parameters("browser")
-	/*public void setup(@Optional("firefox")String browser){
+	public void setup(@Optional("firefox")String browser){
 		log.info("Launching browser");
 		boolean isJenkins = System.getenv("JENKINS_HOME") != null;
 		if(browser.equalsIgnoreCase("chrome")){
@@ -63,8 +63,8 @@ public class BaseClass {
 		log.info("Browser launched successfully: " + browser);
 		driver.get("https://blazedemo.com");
 		log.info("Application launched");
-		}*/
-	public void setup(String browser){
+		}
+	/*public void setup(String browser){
 		log.info("Launching browser");
 		if(browser.equalsIgnoreCase("chrome")){
 			WebDriverManager.chromedriver().setup();
@@ -83,7 +83,7 @@ public class BaseClass {
 		log.info("Browser launched successfully: " + browser);
 		driver.get("https://blazedemo.com");
 		log.info("Application launched");
-	}
+	}*/
 	@AfterMethod
 	public void tearDown(){
 		log.info("Closing browser");
