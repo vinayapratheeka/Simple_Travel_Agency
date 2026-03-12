@@ -48,6 +48,7 @@ public class FlightBookingTest extends BaseClass {
         test.info("Passenger details entered");
         Thread.sleep(1500);
         System.out.println(name + " " + address + " " + city);
+        //Assert.fail("Intentional failure at Purchase Page for testing");
 
         ConfirmationPage confirm = new ConfirmationPage(driver);
         String msg = confirm.getConfirmationMessage();

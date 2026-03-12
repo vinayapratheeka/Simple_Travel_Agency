@@ -7,7 +7,7 @@
         <methods>
           <include name="flushReport"/>
           <include name="tearDown"/>
-          <include name="bookFlightTest"/>
+          <include name="bookFlightTest" invocation-numbers="0 1 2"/>
           <include name="setup"/>
         </methods>
       </class> <!-- tests.FlightBookingTest -->

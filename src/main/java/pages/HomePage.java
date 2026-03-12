@@ -24,6 +24,7 @@ public class HomePage {
         dep.selectByVisibleText("Mexico City");
         Select dest = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(destination)));
         dest.selectByVisibleText("London");
+        //dest.selectByVisibleText("");
         wait.until(ExpectedConditions.elementToBeClickable(findFlights)).click();
     }
 }

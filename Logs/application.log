@@ -970,3 +970,174 @@
 2026-03-10 14:02:47 INFO  FlightBookingTest:55 - Flight booking successful
 2026-03-10 14:02:49 INFO  BaseClass:89 - Closing browser
 2026-03-10 14:02:50 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:02:00 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:02:10 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:02:12 INFO  BaseClass:65 - Application launched
+2026-03-11 13:02:13 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:02:15 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:02:18 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:02:19 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:02:21 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:02:27 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:02:29 INFO  BaseClass:65 - Application launched
+2026-03-11 13:02:30 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:02:32 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:02:35 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:02:36 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:02:38 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:02:46 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:02:47 INFO  BaseClass:65 - Application launched
+2026-03-11 13:02:49 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:02:51 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:02:54 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:02:55 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:02:57 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:03:04 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:03:05 INFO  BaseClass:65 - Application launched
+2026-03-11 13:03:07 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:03:09 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:03:11 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:03:13 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:03:14 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:03:20 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:03:21 INFO  BaseClass:65 - Application launched
+2026-03-11 13:03:23 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:03:25 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:03:27 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:03:29 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:03:31 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:03:38 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:03:39 INFO  BaseClass:65 - Application launched
+2026-03-11 13:03:40 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:03:42 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:03:46 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:03:47 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:03:49 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:03:56 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:03:58 INFO  BaseClass:65 - Application launched
+2026-03-11 13:03:59 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:04:01 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:04:04 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:04:05 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:04:07 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:04:14 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:04:15 INFO  BaseClass:65 - Application launched
+2026-03-11 13:04:17 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:04:18 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:04:21 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:04:23 INFO  BaseClass:89 - Closing browser
+2026-03-11 13:04:24 INFO  BaseClass:21 - Launching browser
+2026-03-11 13:04:31 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-11 13:04:32 INFO  BaseClass:65 - Application launched
+2026-03-11 13:04:34 INFO  FlightBookingTest:33 - Flights searched
+2026-03-11 13:04:36 INFO  FlightBookingTest:40 - Flight selected
+2026-03-11 13:04:38 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-11 13:04:40 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:27:37 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:27:40 INFO  BaseClass:63 - Browser launched successfully: chrome
+2026-03-12 11:27:42 INFO  BaseClass:65 - Application launched
+2026-03-12 11:27:44 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:27:47 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:27:50 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:27:51 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:27:53 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:27:53 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:27:54 INFO  BaseClass:63 - Browser launched successfully: chrome
+2026-03-12 11:27:56 INFO  BaseClass:65 - Application launched
+2026-03-12 11:27:57 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:27:59 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:28:02 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:28:04 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:28:05 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:28:05 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:28:06 INFO  BaseClass:63 - Browser launched successfully: chrome
+2026-03-12 11:28:08 INFO  BaseClass:65 - Application launched
+2026-03-12 11:28:08 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:28:10 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:28:13 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:28:15 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:28:16 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:28:16 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:28:17 INFO  BaseClass:63 - Browser launched successfully: edge
+2026-03-12 11:28:19 INFO  BaseClass:65 - Application launched
+2026-03-12 11:28:20 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:28:22 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:28:25 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:28:27 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:28:28 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:28:29 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:28:30 INFO  BaseClass:63 - Browser launched successfully: edge
+2026-03-12 11:28:32 INFO  BaseClass:65 - Application launched
+2026-03-12 11:28:33 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:28:36 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:28:39 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:28:41 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:28:42 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:28:42 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:28:43 INFO  BaseClass:63 - Browser launched successfully: edge
+2026-03-12 11:28:45 INFO  BaseClass:65 - Application launched
+2026-03-12 11:28:46 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:28:47 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:28:50 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:28:52 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:28:54 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:28:54 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:29:01 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 11:29:03 INFO  BaseClass:65 - Application launched
+2026-03-12 11:29:03 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:29:06 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:29:08 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:29:10 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:29:11 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:29:12 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:29:17 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 11:29:21 INFO  BaseClass:65 - Application launched
+2026-03-12 11:29:22 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:29:24 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:29:27 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:29:28 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:29:30 INFO  BaseClass:89 - Closing browser
+2026-03-12 11:29:31 INFO  BaseClass:21 - Launching browser
+2026-03-12 11:29:35 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 11:29:37 INFO  BaseClass:65 - Application launched
+2026-03-12 11:29:38 INFO  FlightBookingTest:33 - Flights searched
+2026-03-12 11:29:40 INFO  FlightBookingTest:40 - Flight selected
+2026-03-12 11:29:43 INFO  FlightBookingTest:47 - Passenger details entered
+2026-03-12 11:29:44 INFO  FlightBookingTest:56 - Flight booking successful
+2026-03-12 11:29:46 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:37:01 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:37:12 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:37:13 INFO  BaseClass:65 - Application launched
+2026-03-12 12:37:14 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:37:16 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:37:22 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:37:24 INFO  BaseClass:65 - Application launched
+2026-03-12 12:37:24 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:37:26 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:37:32 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:37:33 INFO  BaseClass:65 - Application launched
+2026-03-12 12:37:34 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:37:36 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:37:43 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:37:44 INFO  BaseClass:65 - Application launched
+2026-03-12 12:37:45 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:37:47 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:37:55 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:37:56 INFO  BaseClass:65 - Application launched
+2026-03-12 12:37:57 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:37:59 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:38:07 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:38:08 INFO  BaseClass:65 - Application launched
+2026-03-12 12:38:09 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:38:11 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:38:18 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:38:20 INFO  BaseClass:65 - Application launched
+2026-03-12 12:38:21 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:38:23 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:38:29 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:38:30 INFO  BaseClass:65 - Application launched
+2026-03-12 12:38:31 INFO  BaseClass:89 - Closing browser
+2026-03-12 12:38:33 INFO  BaseClass:21 - Launching browser
+2026-03-12 12:38:38 INFO  BaseClass:63 - Browser launched successfully: firefox
+2026-03-12 12:38:40 INFO  BaseClass:65 - Application launched
+2026-03-12 12:38:41 INFO  BaseClass:89 - Closing browser
