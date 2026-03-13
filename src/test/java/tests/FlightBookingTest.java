@@ -60,5 +60,6 @@ public class FlightBookingTest extends BaseClass {
     @AfterSuite
     public void flushReport(){
         extent.flush();
+        System.out.println("Testing");
     }
 }
