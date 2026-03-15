@@ -9,6 +9,7 @@ public class ExtentManager {
                 new ExtentSparkReporter("./Reports/ExtentReport.html");
         reporter.config().setReportName("BlazeDemo Automation Report");
         reporter.config().setDocumentTitle("Automation Test Results");
+       // reporter.config().setResourceCDN(ResourceCDN.EMBED);
         ExtentReports extent = new ExtentReports();
         extent.attachReporter(reporter);
         return extent;
