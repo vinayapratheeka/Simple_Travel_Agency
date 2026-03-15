@@ -13,7 +13,7 @@ public class ExcelUtils {
 	        FileInputStream fis = new FileInputStream(path);
 	        XSSFWorkbook wb = new XSSFWorkbook(fis);
 	        XSSFSheet sheet = wb.getSheet("Sheet1");
-	        int rows = sheet.getLastRowNum();
+	        int rows = sheet.getPhysicalNumberOfRows() - 1;
 	        int cols = sheet.getRow(0).getLastCellNum();
 	        data = new Object[rows][cols];
 	        DataFormatter formatter = new DataFormatter();

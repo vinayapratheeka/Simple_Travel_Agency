@@ -7,8 +7,10 @@
         <methods>
           <include name="flushReport"/>
           <include name="tearDown"/>
-          <include name="bookFlightTest" invocation-numbers="0 1 2"/>
+          <include name="bookFlightCSV"/>
           <include name="setup"/>
+          <include name="bookFlightDB"/>
+          <include name="bookFlightExcel"/>
         </methods>
       </class> <!-- tests.FlightBookingTest -->
     </classes>

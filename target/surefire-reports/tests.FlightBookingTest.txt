@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tests.FlightBookingTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.14 s -- in tests.FlightBookingTest

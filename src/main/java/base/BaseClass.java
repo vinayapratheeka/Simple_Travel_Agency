@@ -35,7 +35,6 @@ public class BaseClass {
 			driver = new ChromeDriver(options);
 		}
 		else if(browser.equalsIgnoreCase("edge")){
-			//WebDriverManager.edgedriver().clearDriverCache().setup();
 			System.setProperty("webdriver.edge.driver",
 					"C:\\Users\\HP\\OneDrive\\Desktop\\Selenium Integration\\edgedriver_win64\\msedgedriver.exe");
 			//driver = new EdgeDriver();

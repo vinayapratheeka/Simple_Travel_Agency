@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="10" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-12T14:35:04 IST" name="CrossBrowserSuite" finished-at="2026-03-12T14:42:15 IST" duration-ms="430537">
+  <suite started-at="2026-03-15T19:00:28 IST" name="CrossBrowserSuite" finished-at="2026-03-15T19:02:47 IST" duration-ms="138666">
     <groups>
     </groups>
-    <test started-at="2026-03-12T14:35:04 IST" name="ChromeTest" finished-at="2026-03-12T14:35:56 IST" duration-ms="51248">
+    <test started-at="2026-03-15T19:00:28 IST" name="ChromeTest" finished-at="2026-03-15T19:01:14 IST" duration-ms="45323">
       <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:05 IST" name="setup" finished-at="2026-03-12T14:35:09 IST" duration-ms="4351" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:00:29 IST" name="setup" finished-at="2026-03-15T19:00:32 IST" duration-ms="2723" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:09 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:35:30 IST" duration-ms="20664" status="PASS">
+        <test-method signature="bookFlightExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:00:32 IST" name="bookFlightExcel" data-provider="excelData" finished-at="2026-03-15T19:00:44 IST" duration-ms="12082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,12 +58,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:30 IST" name="tearDown" finished-at="2026-03-12T14:35:30 IST" duration-ms="290" status="PASS">
+        </test-method> <!-- bookFlightExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:00:44 IST" name="tearDown" finished-at="2026-03-15T19:00:44 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:30 IST" name="setup" finished-at="2026-03-12T14:35:33 IST" duration-ms="2558" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:00:44 IST" name="setup" finished-at="2026-03-15T19:00:46 IST" duration-ms="2225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:33 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:35:42 IST" duration-ms="9529" status="PASS">
+        <test-method signature="bookFlightCSV(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:00:46 IST" name="bookFlightCSV" data-provider="csvData" finished-at="2026-03-15T19:00:58 IST" duration-ms="11455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,12 +114,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:42 IST" name="tearDown" finished-at="2026-03-12T14:35:43 IST" duration-ms="399" status="PASS">
+        </test-method> <!-- bookFlightCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:00:58 IST" name="tearDown" finished-at="2026-03-15T19:00:59 IST" duration-ms="1738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:43 IST" name="setup" finished-at="2026-03-12T14:35:46 IST" duration-ms="2942" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:01:00 IST" name="setup" finished-at="2026-03-15T19:01:02 IST" duration-ms="2496" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,16 +130,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:46 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:35:55 IST" duration-ms="9439" status="PASS">
+        <test-method signature="bookFlightDB(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:01:02 IST" name="bookFlightDB" data-provider="dbData" finished-at="2026-03-15T19:01:13 IST" duration-ms="11377" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rahul Reddy]]>
+                <![CDATA[Rahul]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[78 Jubilee Hills Main Road]]>
+                <![CDATA[78 Jubilee Hills Road]]>
               </value>
             </param>
             <param index="2">
@@ -170,16 +170,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@4cc547a]" started-at="2026-03-12T14:35:55 IST" name="tearDown" finished-at="2026-03-12T14:35:56 IST" duration-ms="353" status="PASS">
+        </test-method> <!-- bookFlightDB -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@182f1e9a]" started-at="2026-03-15T19:01:13 IST" name="tearDown" finished-at="2026-03-15T19:01:14 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.FlightBookingTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2026-03-12T14:35:56 IST" name="EdgeTest" finished-at="2026-03-12T14:41:23 IST" duration-ms="327823">
+    <test started-at="2026-03-15T19:01:14 IST" name="EdgeTest" finished-at="2026-03-15T19:01:55 IST" duration-ms="41728">
       <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:35:56 IST" name="setup" finished-at="2026-03-12T14:35:59 IST" duration-ms="2919" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:14 IST" name="setup" finished-at="2026-03-15T19:01:16 IST" duration-ms="2529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +190,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:35:59 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:36:09 IST" duration-ms="9967" status="PASS">
+        <test-method signature="bookFlightExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:16 IST" name="bookFlightExcel" data-provider="excelData" finished-at="2026-03-15T19:01:28 IST" duration-ms="11870" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,12 +230,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:36:09 IST" name="tearDown" finished-at="2026-03-12T14:36:09 IST" duration-ms="308" status="PASS">
+        </test-method> <!-- bookFlightExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:28 IST" name="tearDown" finished-at="2026-03-15T19:01:28 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:36:09 IST" name="setup" finished-at="2026-03-12T14:36:12 IST" duration-ms="2707" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:28 IST" name="setup" finished-at="2026-03-15T19:01:31 IST" duration-ms="2106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,130 +246,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:36:12 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:39:17 IST" duration-ms="185881" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ananya Sharma]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[102 Lake View Street]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Karnataka]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[560034]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4716347184862961]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Ananya]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [24be9c34a7ce10842f2d09664c633b6e, actions {actions=[org.openqa.selenium.interactions.Sequence@55e42684]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 9872, ms:edgeOptions: {debuggerAddress: localhost:49867}, msedge: {msedgedriverVersion: 144.0.3719.115 (4ee501a4f64..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49867/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 24be9c34a7ce10842f2d09664c633b6e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [24be9c34a7ce10842f2d09664c633b6e, actions {actions=[org.openqa.selenium.interactions.Sequence@55e42684]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 9872, ms:edgeOptions: {debuggerAddress: localhost:49867}, msedge: {msedgedriverVersion: 144.0.3719.115 (4ee501a4f64..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49867/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 24be9c34a7ce10842f2d09664c633b6e
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:403)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
-at pages.PurchasePage.enterDetails(PurchasePage.java:38)
-at tests.FlightBookingTest.bookFlightTest(FlightBookingTest.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:386)
-... 40 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:39:17 IST" name="tearDown" finished-at="2026-03-12T14:39:24 IST" duration-ms="6377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:39:24 IST" name="setup" finished-at="2026-03-12T14:39:26 IST" duration-ms="2084" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:39:26 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:39:44 IST" duration-ms="17846" status="PASS">
+        <test-method signature="bookFlightCSV(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:31 IST" name="bookFlightCSV" data-provider="csvData" finished-at="2026-03-15T19:01:42 IST" duration-ms="11374" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -409,12 +286,12 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:39:44 IST" name="tearDown" finished-at="2026-03-12T14:39:44 IST" duration-ms="554" status="PASS">
+        </test-method> <!-- bookFlightCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:42 IST" name="tearDown" finished-at="2026-03-15T19:01:42 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:39:44 IST" name="setup" finished-at="2026-03-12T14:39:46 IST" duration-ms="2163" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:42 IST" name="setup" finished-at="2026-03-15T19:01:44 IST" duration-ms="2057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,16 +302,16 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:39:46 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:41:23 IST" duration-ms="96425" status="PASS">
+        <test-method signature="bookFlightDB(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:44 IST" name="bookFlightDB" data-provider="dbData" finished-at="2026-03-15T19:01:55 IST" duration-ms="10967" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rahul Reddy]]>
+                <![CDATA[Rahul]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[78 Jubilee Hills Main Road]]>
+                <![CDATA[78 Jubilee Hills Road]]>
               </value>
             </param>
             <param index="2">
@@ -465,16 +342,16 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3a4b0e5d]" started-at="2026-03-12T14:41:23 IST" name="tearDown" finished-at="2026-03-12T14:41:23 IST" duration-ms="496" status="PASS">
+        </test-method> <!-- bookFlightDB -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@62d363ab]" started-at="2026-03-15T19:01:55 IST" name="tearDown" finished-at="2026-03-15T19:01:55 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.FlightBookingTest -->
     </test> <!-- EdgeTest -->
-    <test started-at="2026-03-12T14:41:23 IST" name="FirefoxTest" finished-at="2026-03-12T14:42:15 IST" duration-ms="51409">
+    <test started-at="2026-03-15T19:01:55 IST" name="FirefoxTest" finished-at="2026-03-15T19:02:47 IST" duration-ms="51591">
       <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:41:23 IST" name="setup" finished-at="2026-03-12T14:41:31 IST" duration-ms="7171" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:01:55 IST" name="setup" finished-at="2026-03-15T19:02:00 IST" duration-ms="4651" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -485,7 +362,7 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:41:31 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:41:40 IST" duration-ms="9051" status="PASS">
+        <test-method signature="bookFlightExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:00 IST" name="bookFlightExcel" data-provider="excelData" finished-at="2026-03-15T19:02:11 IST" duration-ms="11351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -525,12 +402,12 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:41:40 IST" name="tearDown" finished-at="2026-03-12T14:41:41 IST" duration-ms="1289" status="PASS">
+        </test-method> <!-- bookFlightExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:11 IST" name="tearDown" finished-at="2026-03-15T19:02:13 IST" duration-ms="1103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:41:41 IST" name="setup" finished-at="2026-03-12T14:41:48 IST" duration-ms="6606" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:13 IST" name="setup" finished-at="2026-03-15T19:02:17 IST" duration-ms="4608" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,7 +418,7 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:41:48 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:41:57 IST" duration-ms="9101" status="PASS">
+        <test-method signature="bookFlightCSV(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:17 IST" name="bookFlightCSV" data-provider="csvData" finished-at="2026-03-15T19:02:29 IST" duration-ms="11374" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -581,12 +458,12 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:41:57 IST" name="tearDown" finished-at="2026-03-12T14:41:58 IST" duration-ms="1414" status="PASS">
+        </test-method> <!-- bookFlightCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:29 IST" name="tearDown" finished-at="2026-03-15T19:02:29 IST" duration-ms="847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:41:58 IST" name="setup" finished-at="2026-03-12T14:42:05 IST" duration-ms="6818" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:29 IST" name="setup" finished-at="2026-03-15T19:02:35 IST" duration-ms="5353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -597,16 +474,16 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlightTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:42:05 IST" name="bookFlightTest" data-provider="flightData" finished-at="2026-03-12T14:42:13 IST" duration-ms="8476" status="PASS">
+        <test-method signature="bookFlightDB(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:35 IST" name="bookFlightDB" data-provider="dbData" finished-at="2026-03-15T19:02:46 IST" duration-ms="11413" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rahul Reddy]]>
+                <![CDATA[Rahul]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[78 Jubilee Hills Main Road]]>
+                <![CDATA[78 Jubilee Hills Road]]>
               </value>
             </param>
             <param index="2">
@@ -637,12 +514,12 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:42:13 IST" name="tearDown" finished-at="2026-03-12T14:42:15 IST" duration-ms="1422" status="PASS">
+        </test-method> <!-- bookFlightDB -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:46 IST" name="tearDown" finished-at="2026-03-15T19:02:47 IST" duration-ms="846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.FlightBookingTest@3d3f761a]" started-at="2026-03-12T14:42:15 IST" name="flushReport" finished-at="2026-03-12T14:42:15 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.FlightBookingTest@5ef8df1e]" started-at="2026-03-15T19:02:47 IST" name="flushReport" finished-at="2026-03-15T19:02:47 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
