@@ -16,7 +16,7 @@ public class ConfirmationPage {
     By message = By.tagName("h1");
     public String getConfirmationMessage() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        log.info("Fetching confirmation message from confirmation page- msg received");
+        log.info("Fetching confirmation message from confirmation page - msg received");
         return wait.until(ExpectedConditions.visibilityOfElementLocated(message)).getText();
     }
 }
