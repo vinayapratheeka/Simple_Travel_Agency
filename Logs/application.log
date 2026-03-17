@@ -1048,3 +1048,732 @@
 2026-03-16 10:19:49 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
 2026-03-16 10:19:49 INFO  FlightBookingTest:88 - Flight booking successful
 2026-03-16 10:19:49 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:49:03 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:49:07 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-16 17:49:09 INFO  BaseClass:64 - Application launched
+2026-03-16 17:49:09 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-16 17:49:09 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:49:09 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:49:11 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:49:11 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:49:11 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:49:11 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:49:11 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:49:13 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:49:15 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:49:15 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:49:17 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:49:18 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-16 17:49:19 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-16 17:49:19 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 17:49:19 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 17:49:20 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-16 17:49:20 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:49:20 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-16 17:49:20 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:49:22 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:49:22 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:49:22 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:49:22 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:49:23 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:49:23 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-16 17:49:25 INFO  BaseClass:64 - Application launched
+2026-03-16 17:49:25 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-16 17:49:25 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:49:25 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:49:27 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:49:27 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:49:27 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:49:27 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:49:27 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:49:29 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:49:31 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:49:31 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:49:32 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:49:34 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-16 17:49:34 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-16 17:49:34 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-16 17:49:34 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-16 17:49:35 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-16 17:49:35 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:49:35 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-16 17:49:36 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:49:38 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:49:38 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:49:38 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:49:38 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:49:38 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:49:39 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-16 17:49:41 INFO  BaseClass:64 - Application launched
+2026-03-16 17:49:41 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-16 17:49:41 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:49:41 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:49:42 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:49:43 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:49:43 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:49:43 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:49:43 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:49:45 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:49:46 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:49:47 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:49:48 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:49:50 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-16 17:49:50 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-16 17:49:50 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 17:49:51 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 17:49:51 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-16 17:49:51 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:49:51 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-16 17:49:52 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:49:53 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:49:53 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:49:53 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:49:53 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:49:54 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:49:55 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-16 17:49:58 INFO  BaseClass:64 - Application launched
+2026-03-16 17:49:58 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-16 17:49:58 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:49:58 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:49:59 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:49:59 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:49:59 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:50:00 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:50:00 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:50:02 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:50:04 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:50:04 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:50:06 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:50:07 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-16 17:50:07 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-16 17:50:07 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 17:50:08 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 17:50:08 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-16 17:50:08 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:50:08 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-16 17:50:09 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:50:11 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:50:11 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:50:11 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:50:11 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:50:11 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:50:12 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-16 17:50:14 INFO  BaseClass:64 - Application launched
+2026-03-16 17:50:14 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-16 17:50:14 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:50:14 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:50:15 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:50:15 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:50:15 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:50:15 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:50:15 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:50:17 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:50:19 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:50:20 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:50:21 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:50:23 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-16 17:50:23 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-16 17:50:23 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-16 17:50:23 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-16 17:50:24 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-16 17:50:24 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:50:24 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-16 17:50:24 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:50:26 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:50:26 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:50:26 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:50:26 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:50:27 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:50:27 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-16 17:50:29 INFO  BaseClass:64 - Application launched
+2026-03-16 17:50:29 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-16 17:50:29 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:50:29 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:50:30 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:50:31 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:50:31 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:50:31 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:50:31 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:50:33 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:50:35 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:50:35 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:50:37 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:50:38 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-16 17:50:38 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-16 17:50:39 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 17:50:39 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 17:50:39 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-16 17:50:39 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:50:39 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-16 17:50:40 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:50:42 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:50:42 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:50:42 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:50:42 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:50:42 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:50:48 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-16 17:50:49 INFO  BaseClass:64 - Application launched
+2026-03-16 17:50:49 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-16 17:50:49 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:50:49 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:50:51 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:50:51 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:50:51 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:50:51 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:50:51 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:50:53 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:50:55 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:50:55 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:50:57 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:50:58 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-16 17:50:58 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-16 17:50:58 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 17:50:58 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 17:50:59 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-16 17:50:59 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:50:59 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-16 17:50:59 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:51:01 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:51:01 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:51:01 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:51:02 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:51:03 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:51:06 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-16 17:51:07 INFO  BaseClass:64 - Application launched
+2026-03-16 17:51:07 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-16 17:51:07 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:51:07 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:51:09 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:51:09 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:51:09 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:51:09 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:51:09 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:51:11 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:51:13 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:51:13 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:51:15 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:51:16 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-16 17:51:16 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-16 17:51:17 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-16 17:51:17 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-16 17:51:17 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-16 17:51:17 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:51:17 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-16 17:51:17 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:51:19 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:51:19 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:51:20 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:51:20 INFO  BaseClass:88 - Closing browser
+2026-03-16 17:51:21 INFO  BaseClass:21 - Launching browser
+2026-03-16 17:51:24 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-16 17:51:25 INFO  BaseClass:64 - Application launched
+2026-03-16 17:51:25 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-16 17:51:25 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 17:51:25 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 17:51:27 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 17:51:27 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 17:51:27 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 17:51:27 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 17:51:27 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 17:51:29 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 17:51:31 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 17:51:31 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 17:51:33 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 17:51:34 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-16 17:51:34 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-16 17:51:34 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 17:51:34 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 17:51:35 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-16 17:51:35 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 17:51:35 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-16 17:51:35 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 17:51:37 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 17:51:37 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 17:51:37 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 17:51:37 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:00:51 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:00:54 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-16 19:00:56 INFO  BaseClass:64 - Application launched
+2026-03-16 19:00:56 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-16 19:00:56 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:00:56 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:00:58 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:00:58 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:00:58 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:00:58 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:00:58 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:01:00 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:01:02 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:01:03 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:01:04 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:01:06 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-16 19:01:06 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-16 19:01:06 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 19:01:06 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 19:01:07 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-16 19:01:07 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:01:07 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-16 19:01:07 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:01:09 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:01:09 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:01:10 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:01:10 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:01:10 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:01:11 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-16 19:01:13 INFO  BaseClass:64 - Application launched
+2026-03-16 19:01:13 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-16 19:01:13 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:01:13 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:01:14 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:01:15 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:01:15 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:01:15 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:01:15 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:01:17 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:01:19 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:01:19 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:01:20 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:01:22 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-16 19:01:22 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-16 19:01:22 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-16 19:01:22 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-16 19:01:42 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-16 19:01:42 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:01:42 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-16 19:01:43 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:01:45 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:01:45 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:01:45 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:01:45 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:01:46 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:01:47 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-16 19:01:49 INFO  BaseClass:64 - Application launched
+2026-03-16 19:01:49 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-16 19:01:49 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:01:49 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:01:50 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:01:51 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:01:51 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:01:51 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:01:51 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:01:53 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:01:55 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:01:55 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:01:57 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:01:58 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-16 19:01:58 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-16 19:01:59 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 19:01:59 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 19:01:59 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-16 19:01:59 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:02:00 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-16 19:02:00 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:02:02 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:02:02 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:02:02 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:02:02 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:02:02 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:02:03 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-16 19:02:04 INFO  BaseClass:64 - Application launched
+2026-03-16 19:02:04 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-16 19:02:04 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:02:04 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:02:06 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:02:06 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:02:06 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:02:06 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:02:06 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:02:08 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:02:10 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:02:10 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:02:12 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:02:13 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-16 19:02:13 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-16 19:02:14 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 19:02:14 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 19:02:14 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-16 19:02:14 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:02:15 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-16 19:02:15 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:02:17 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:02:17 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:02:17 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:02:17 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:02:17 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:02:18 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-16 19:02:20 INFO  BaseClass:64 - Application launched
+2026-03-16 19:02:20 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-16 19:02:20 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:02:20 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:02:21 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:02:22 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:02:22 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:02:22 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:02:22 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:02:24 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:02:25 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:02:26 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:02:28 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:02:29 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-16 19:02:29 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-16 19:02:30 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-16 19:02:30 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-16 19:02:30 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-16 19:02:30 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:02:31 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-16 19:02:31 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:02:33 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:02:33 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:02:33 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:02:33 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:02:33 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:02:34 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-16 19:02:36 INFO  BaseClass:64 - Application launched
+2026-03-16 19:02:36 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-16 19:02:36 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:02:36 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:02:38 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:02:38 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:02:38 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:02:38 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:02:38 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:02:40 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:02:42 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:02:43 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:02:44 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:02:46 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-16 19:02:46 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-16 19:02:46 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 19:02:46 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 19:02:47 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-16 19:02:47 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:02:47 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-16 19:02:47 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:02:49 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:02:49 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:02:49 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:02:49 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:02:50 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:02:55 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-16 19:02:56 INFO  BaseClass:64 - Application launched
+2026-03-16 19:02:56 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-16 19:02:56 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:02:56 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:02:58 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:02:58 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:02:58 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:02:58 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:02:58 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:03:00 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:03:02 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:03:03 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:03:04 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:03:06 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-16 19:03:06 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-16 19:03:06 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 19:03:06 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 19:03:06 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-16 19:03:06 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:03:06 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-16 19:03:06 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:03:09 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:03:09 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:03:09 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:03:09 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:03:11 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:03:14 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-16 19:03:16 INFO  BaseClass:64 - Application launched
+2026-03-16 19:03:16 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-16 19:03:16 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:03:16 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:03:17 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:03:17 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:03:17 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:03:17 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:03:17 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:03:19 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:03:21 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:03:21 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:03:23 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:03:24 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-16 19:03:25 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-16 19:03:25 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-16 19:03:25 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-16 19:03:25 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-16 19:03:25 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:03:25 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-16 19:03:25 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:03:27 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:03:27 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:03:27 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:03:27 INFO  BaseClass:88 - Closing browser
+2026-03-16 19:03:29 INFO  BaseClass:21 - Launching browser
+2026-03-16 19:03:33 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-16 19:03:34 INFO  BaseClass:64 - Application launched
+2026-03-16 19:03:34 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-16 19:03:34 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-16 19:03:34 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-16 19:03:35 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-16 19:03:35 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-16 19:03:35 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-16 19:03:36 INFO  HomePage:36 - Destination city selected: London
+2026-03-16 19:03:36 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-16 19:03:38 INFO  FlightBookingTest:66 - Flights searched
+2026-03-16 19:03:39 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-16 19:03:40 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-16 19:03:41 INFO  FlightBookingTest:74 - Flight selected
+2026-03-16 19:03:43 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-16 19:03:43 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-16 19:03:43 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-16 19:03:43 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-16 19:03:43 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-16 19:03:43 INFO  PurchasePage:49 - Entering credit card number
+2026-03-16 19:03:44 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-16 19:03:44 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-16 19:03:46 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-16 19:03:46 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-16 19:03:46 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-16 19:03:46 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:29:01 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:29:05 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-17 09:29:06 INFO  BaseClass:64 - Application launched
+2026-03-17 09:29:06 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-17 09:29:06 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:29:06 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:29:08 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:29:08 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:29:08 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:29:08 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:29:08 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:29:10 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:29:12 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:29:12 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:29:14 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:29:15 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-17 09:29:15 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-17 09:29:16 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-17 09:29:16 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-17 09:29:16 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-17 09:29:16 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:29:16 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-17 09:29:16 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:29:18 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:29:18 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:29:19 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:29:19 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:29:19 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:29:20 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-17 09:29:21 INFO  BaseClass:64 - Application launched
+2026-03-17 09:29:21 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-17 09:29:21 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:29:21 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:29:23 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:29:23 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:29:23 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:29:23 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:29:23 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:29:25 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:29:27 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:29:27 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:29:29 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:29:30 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-17 09:29:30 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-17 09:29:31 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-17 09:29:31 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-17 09:29:31 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-17 09:29:31 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:29:31 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-17 09:29:31 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:29:33 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:29:33 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:29:33 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:29:34 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:29:34 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:29:35 INFO  BaseClass:62 - Browser launched successfully: chrome
+2026-03-17 09:29:36 INFO  BaseClass:64 - Application launched
+2026-03-17 09:29:36 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-17 09:29:36 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:29:36 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:29:38 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:29:38 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:29:38 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:29:38 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:29:38 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:29:40 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:29:42 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:29:42 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:29:44 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:29:45 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-17 09:29:45 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-17 09:29:46 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-17 09:29:46 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-17 09:29:46 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-17 09:29:46 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:29:46 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-17 09:29:47 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:29:49 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:29:49 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:29:49 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:29:49 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:29:49 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:29:51 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-17 09:29:52 INFO  BaseClass:64 - Application launched
+2026-03-17 09:29:52 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-17 09:29:52 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:29:52 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:29:54 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:29:54 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:29:54 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:29:54 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:29:54 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:29:56 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:29:58 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:29:59 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:30:00 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:30:02 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-17 09:30:02 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-17 09:30:02 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-17 09:30:02 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-17 09:30:02 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-17 09:30:02 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:30:03 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-17 09:30:03 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:30:05 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:30:05 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:30:05 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:30:05 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:30:05 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:30:06 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-17 09:30:08 INFO  BaseClass:64 - Application launched
+2026-03-17 09:30:08 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-17 09:30:08 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:30:08 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:30:09 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:30:09 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:30:09 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:30:10 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:30:10 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:30:12 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:30:13 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:30:13 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:30:15 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:30:16 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-17 09:30:17 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-17 09:30:17 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-17 09:30:17 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-17 09:30:17 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-17 09:30:17 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:30:17 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-17 09:30:18 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:30:20 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:30:20 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:30:20 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:30:20 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:30:20 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:30:22 INFO  BaseClass:62 - Browser launched successfully: edge
+2026-03-17 09:30:24 INFO  BaseClass:64 - Application launched
+2026-03-17 09:30:24 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-17 09:30:24 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:30:24 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:30:25 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:30:26 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:30:26 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:30:26 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:30:26 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:30:28 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:30:29 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:30:30 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:30:31 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:30:33 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-17 09:30:33 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-17 09:30:33 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-17 09:30:33 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-17 09:30:34 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-17 09:30:34 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:30:34 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-17 09:30:34 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:30:36 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:30:36 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:30:36 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:30:36 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:30:36 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:30:42 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-17 09:30:44 INFO  BaseClass:64 - Application launched
+2026-03-17 09:30:44 INFO  FlightBookingTest:60 - Running test : Excel Test
+2026-03-17 09:30:44 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:30:44 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:30:46 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:30:46 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:30:46 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:30:46 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:30:46 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:30:48 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:30:49 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:30:50 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:30:51 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:30:53 INFO  PurchasePage:32 - Entering passenger name: Vinaya 
+2026-03-17 09:30:53 INFO  PurchasePage:35 - Entering address: 45 Green Park Road
+2026-03-17 09:30:53 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-17 09:30:53 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-17 09:30:53 INFO  PurchasePage:46 - Entering zip code: 500081
+2026-03-17 09:30:53 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:30:53 INFO  PurchasePage:52 - Entering name on card: Vinaya
+2026-03-17 09:30:53 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:30:55 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:30:55 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:30:55 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:30:55 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:30:56 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:31:01 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-17 09:31:02 INFO  BaseClass:64 - Application launched
+2026-03-17 09:31:02 INFO  FlightBookingTest:60 - Running test : CSV Test
+2026-03-17 09:31:02 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:31:02 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:31:04 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:31:04 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:31:04 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:31:04 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:31:04 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:31:06 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:31:07 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:31:08 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:31:09 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:31:11 INFO  PurchasePage:32 - Entering passenger name: Ananya Sharma
+2026-03-17 09:31:11 INFO  PurchasePage:35 - Entering address: 102 Lake View Street
+2026-03-17 09:31:11 INFO  PurchasePage:38 - Entering city: Bangalore
+2026-03-17 09:31:11 INFO  PurchasePage:41 - Entering state: Karnataka
+2026-03-17 09:31:11 INFO  PurchasePage:46 - Entering zip code: 560034
+2026-03-17 09:31:12 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:31:12 INFO  PurchasePage:52 - Entering name on card: Ananya
+2026-03-17 09:31:12 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:31:14 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:31:14 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:31:14 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:31:14 INFO  BaseClass:88 - Closing browser
+2026-03-17 09:31:14 INFO  BaseClass:21 - Launching browser
+2026-03-17 09:31:19 INFO  BaseClass:62 - Browser launched successfully: firefox
+2026-03-17 09:31:20 INFO  BaseClass:64 - Application launched
+2026-03-17 09:31:20 INFO  FlightBookingTest:60 - Running test : Database Test
+2026-03-17 09:31:20 INFO  HomePage:22 - Verifying Home Page is loaded
+2026-03-17 09:31:20 INFO  HomePage:24 - Home Page loaded successfully
+2026-03-17 09:31:22 INFO  HomePage:28 - Selecting departure city from dropdown
+2026-03-17 09:31:22 INFO  HomePage:31 - Departure city selected: Mexico City
+2026-03-17 09:31:22 INFO  HomePage:32 - Selecting destination city from dropdown
+2026-03-17 09:31:22 INFO  HomePage:36 - Destination city selected: London
+2026-03-17 09:31:22 INFO  HomePage:37 - Clicking Find Flights button
+2026-03-17 09:31:24 INFO  FlightBookingTest:66 - Flights searched
+2026-03-17 09:31:26 INFO  FlightsPage:23 - Selecting available flight from flights list
+2026-03-17 09:31:26 INFO  FlightsPage:25 - Flight selected successfully
+2026-03-17 09:31:28 INFO  FlightBookingTest:74 - Flight selected
+2026-03-17 09:31:29 INFO  PurchasePage:32 - Entering passenger name: Rahul
+2026-03-17 09:31:29 INFO  PurchasePage:35 - Entering address: 78 Jubilee Hills Road
+2026-03-17 09:31:29 INFO  PurchasePage:38 - Entering city: Hyderabad
+2026-03-17 09:31:29 INFO  PurchasePage:41 - Entering state: Telangana
+2026-03-17 09:31:30 INFO  PurchasePage:46 - Entering zip code: 500033
+2026-03-17 09:31:30 INFO  PurchasePage:49 - Entering credit card number
+2026-03-17 09:31:30 INFO  PurchasePage:52 - Entering name on card: Rahul
+2026-03-17 09:31:30 INFO  PurchasePage:55 - Clicking Purchase Flight button
+2026-03-17 09:31:32 INFO  FlightBookingTest:82 - Passenger details entered
+2026-03-17 09:31:32 INFO  ConfirmationPage:19 - Fetching confirmation message from confirmation page - msg received
+2026-03-17 09:31:32 INFO  FlightBookingTest:88 - Flight booking successful
+2026-03-17 09:31:32 INFO  BaseClass:88 - Closing browser
